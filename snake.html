@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <!--link href="/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="snake.css">
+    <link rel="icon" href="images/favIcon2.png">
+</head>
+
+<body>
+    <div id="main">
+        <div id="canvasDiv">
+            <canvas id="theCanvas"></canvas>
+        </div>
+        <div id="sideBar">
+            <canvas id="scoreCanvas" width="150" height="80"></canvas>
+            <div id="controls">
+                <button id"newGame" class="btn btn-success btn-lg">NEW GAME</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="startingImage">
+        <button id="playButton" class="btn btn-success btn-lg">PLAY</button>
+    </div>
+    <audio id="ding" src="ding.wav"></audio>
+    <!--script src="/jquery.min.js"></script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--script src="/bootstrap-3.3.6/js/bootstrap.min.js"></script-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="snake.js"></script>
+</body>
+
+</html>
